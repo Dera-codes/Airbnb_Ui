@@ -23,13 +23,30 @@ class HeroBanner extends StatelessWidget {
                   const SizedBox(
                     height: 35,
                   ),
-                  Text(
+                  const Text(
                     "Not sure where to go?/nPerfect.",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                   const SizedBox(
                     height: 25,
+                  ),
+                  ElevatedButton(
+                    style: ButtonStyle(
+                      elevation: MaterialStateProperty.all(5),
+                      alignment: Alignment.center,
+                      padding: MaterialStateProperty.all(const EdgeInsets.only(
+                          right: 50, left: 50, top: 12.5, bottom: 12.5)),
+                      backgroundColor: MaterialStateProperty.all(Colors.white),
+                      overlayColor: MaterialStateProperty.resolveWith((states) {
+                        return states.contains(MaterialState.pressed)
+                            ? Colors.grey.shade100
+                            : null;
+                      }),
+                      shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(25))),
+                    ),
+                    onPressed: () {},
                   ),
                 ],
               ),
