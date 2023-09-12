@@ -52,6 +52,13 @@ class HeroBanner extends StatelessWidget {
                           colors: [Colors.purple, Colors.pink]).createShader(
                         Rect.fromLTWH(0, 0, bounds.width, bounds.height),
                       ),
+                      child: Text(
+                        "I,m flexible",
+                        style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ),
                 ],
