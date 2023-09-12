@@ -56,7 +56,7 @@ class HeroBanner extends StatelessWidget {
                         "I,m flexible",
                         style: TextStyle(
                             fontSize: 16,
-                            color: Colors.white,
+                            color: Colors.blue,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
