@@ -47,6 +47,12 @@ class HeroBanner extends StatelessWidget {
                           borderRadius: BorderRadius.circular(25))),
                     ),
                     onPressed: () {},
+                    child: ShaderMask(
+                      shaderCallback: (bounds) => const LinearGradient(
+                          colors: [Colors.purple, Colors.pink]).createShader(
+                        Rect.fromLTWH(0, 0, bounds.width, bounds.height),
+                      ),
+                    ),
                   ),
                 ],
               ),
