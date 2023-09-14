@@ -1,3 +1,4 @@
+ 
 import 'package:airbnb_ui/models/city.dart';
 import 'package:flutter/material.dart';
 
@@ -39,34 +40,4 @@ class CityCard extends StatelessWidget {
   }
 }
 
-/// CitiesGrid is a StatelessWidget that displays a GridView
-class CitiesGrid extends StatelessWidget {
-  const CitiesGrid({super.key});
 
-  get cities => null;
-
-  @override
-  Widget build(BuildContext context) {
-    return SliverToBoxAdapter(
-      child: SizedBox(
-        height: 180,
-        child: SliverGrid(
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              mainAxisSpacing: 10.0,
-              crossAxisSpacing: 10.0,
-              childAspectRatio: 2.5 / 1,
-              crossAxisCount: 2),
-
-          /// A delegate that builds a list of children that are identified by
-          /// index.
-          delegate: SliverChildBuilderDelegate(
-            (BuildContext context, int index) {
-              return CityCard(cities[index]);
-            },
-            childCount: cities.length,
-          ),
-        ),
-      ),
-    );
-  }
-}
