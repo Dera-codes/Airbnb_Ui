@@ -24,7 +24,7 @@ class HeroBanner extends StatelessWidget {
                     height: 35,
                   ),
                   const Text(
-                    "Not sure where to go?/nPerfect.",
+                    "Not sure where to go? \n Perfect.",
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
@@ -53,7 +53,7 @@ class HeroBanner extends StatelessWidget {
                         Rect.fromLTWH(0, 0, bounds.width, bounds.height),
                       ),
                       child: Text(
-                        "I,m flexible",
+                        "I'm flexible",
                         style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
