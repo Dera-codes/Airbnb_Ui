@@ -16,10 +16,14 @@ flutter packages get
 ```shell
 flutter run
 ```
-## 📸 Screen Shots
+## 📸 Screen Shots Ios(left) and Android(right)
 <p float="left">
   <img src="https://github.com/Dera-codes/Airbnb_Ui/blob/master/Simulator%20Screen%20Shot%20-%20iphone%2013%20pro%20-%202023-09-16%20at%2020.20.24.png?raw=true" width="200">
   <img src="https://github.com/Dera-codes/Airbnb_Ui/blob/master/Simulator%20Screen%20Shot%20-%20iphone%2013%20pro%20-%202023-09-16%20at%2020.20.37.png?raw=true" width="200">
+    <img src="https://github.com/Dera-codes/Airbnb_Ui/blob/master/Screenshot_1695032466.png?raw=true" width="200">
+        <img src="https://github.com/Dera-codes/Airbnb_Ui/blob/master/Screenshot_1695032485.png?raw=true" width="200">
+
+
 </p>
 
 
